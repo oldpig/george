@@ -1,0 +1,76 @@
+/* main.css is created for the style of index.html */
+p {
+    font-family: kaiti;
+    font-size: 14pt;
+    font-weight: bold;
+    line-height: 150%;
+    color: green;
+}
+
+h1 {
+    clear: both;
+}
+
+.img_left {
+    float: left;
+    margin-right: 14px;
+    border: solid green 1px;
+    clear: both;
+}
+
+.img_tiles .a_row {
+    clear: both;
+}
+
+.img_tiles img {
+    display: block;
+}
+
+/* Old browsers may put an border on images with link, this disables it */
+a img {
+    border: none;
+}
+
+/* define a cleaning behavior */
+.clearspace {
+    clear: both;
+}
+
+.myheader {
+    clear: both;
+}
+
+#topMenu nav {
+    margin:0;
+    border:none;
+    padding:0;
+}
+
+#topMenu ul {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    border:none;
+    overflow:auto;
+}
+
+#topMenu li {
+    float:left;
+}
+
+#topMenu li a {
+    display:block;
+    width: 120px;
+    color: blueviolet;
+    padding:4px;
+    font-size:22pt;
+        background-color:yellow; 
+    font-family:SimHei;
+    font-weight: bold;
+    text-align: center;
+    text-decoration:none;
+ }
+#topMenu li a:hover {
+    border-bottom:2px solid blueviolet;
+}
+
