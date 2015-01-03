@@ -32,9 +32,9 @@ exit;
 } 
 //写入数据 
 $password = MD5($password); 
-$regdate = time(); 
+#$regdate = time(); 
 $sql = "INSERT INTO contact(name,password,email,sex,phone_no,QQ,weibo,twitterfacebook,working_com,register_time)VALUES('$name','$password','$email','$sex','$phone_no','$QQ','$weibo','$twitterfacebook','$working_com',
-$regdate)"; 
+now())"; 
 if(mysql_query($sql,$conn)){ 
 exit('用户注册成功！点击此处 <a href="login.html">登录</a>'); 
 } else { 
