@@ -6,7 +6,7 @@ $conn = @mysql_connect("localhost","george","iamhgj");
 if (!$conn){ 
 die("Á¬½ÓÊý¾Ý¿âÊ§°Ü£º" . mysql_error()); 
 } 
-mysql_select_db("contact", $conn); 
+mysql_select_db("contacts", $conn); 
 //×Ö·û×ª»»£¬¶Á¿â 
 mysql_query("set character set 'utf8'"); 
 //Ð´¿â 

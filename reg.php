@@ -25,7 +25,7 @@ exit('错误：电子邮箱格式错误。<a href="javascript:history.back(-1);">返回</a>');
 //包含数据库连接文件 
 include('conn.php'); 
 //检测用户名是否已经存在 
-$check_query = mysql_query("select name from user where name='$name' limit 1"); 
+$check_query = mysql_query("select name from contact where name='$name' limit 1"); 
 if(mysql_fetch_array($check_query)){ 
 echo '错误：用户名 ',$name,' 已存在。<a href="javascript:history.back(-1);">返回</a>'; 
 exit; 
